@@ -1,0 +1,15 @@
+{% extends 'app/base.html'%}
+{% block content %}
+<div class="content-section">
+    <h1>{{detail.country}}</h1><br>
+    <h3>Total Cases</h3>
+    {{detail.total_cases}}
+    <h3>Total Deaths</h3>
+    {{detail.total_deaths }}
+    <h3>Total recovered</h3>
+    {{detail.total_recovered}}
+    <h3>Active Cases</h3>
+    {{detail.active_cases}} 
+    <br><br>
+</div>
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends 'app/base.html'%}
+{% block content %}
+
+
+<div class="content-section" >
+    {% load static %}
+        <img src="{% static 'app/map.png' %}" alt="map"  height="380"> <br><br>
+        <div class="content-section" bg-dark > 
+            <h1>Coronavirus Cases:</h1>
+            <h3>2,671,957</h3>
+            <div class="table">
+                <a  href="{% url 'list' %}"> view by country</a>
+            </div><br>
+            <h1>Deaths:</h1>
+            <h3>186,906</h3><br>
+            <h1>Recovered:</h1>
+            <h3>731,686</h3><br>
+        </div>
+        
+</div>
+
+
+
+
+
+{% endblock %}

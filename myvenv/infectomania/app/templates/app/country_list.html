@@ -1,0 +1,26 @@
+{% extends 'app/base.html'%}
+{% block content %}
+    <table  class="table table-hover table-dark">
+      <tr> <th>country</th> <th>total cases</th> <th>total deaths</th> <th>total recovered</th> <th>active cases</th> </tr>
+    {%for country in list%}
+    <tr onclick="window.location='{% url 'detail' pk=country.pk %}';">
+        <div class="list">
+          <td>{{country.country}}</td>
+          <td>{{country.total_cases}}</td>
+          <td>{{country.total_deaths}}</td>
+          <td>{{country.total_recovered}}</td>
+          <td>{{country.active_cases}}</td>
+        </div>
+        </tr>
+    {%endfor%}
+
+    </table>
+
+    <style type="text/css">
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding:10px;
+      }
+    </style>
+{% endblock %}

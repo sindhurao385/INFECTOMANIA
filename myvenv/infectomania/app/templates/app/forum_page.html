@@ -1,0 +1,21 @@
+{% extends 'app/base.html'%}
+{% block content %}
+<div class="content-section">
+<h2>Forum</h2>
+{%for f in forum%}
+<article class="media content-section">
+    <div class="media-body">
+        <div class="article-metadata">
+            <small class="text-muted">{{ f.username }}</small>
+            <small class="text-muted">{{ f.timestamp }}</small>
+        </div>
+
+        <p class="article-content">{{f.comment}}</p>
+    </div>
+</article>
+{% endfor %}
+<h4>Have a question?</h4>
+<a href="{% url 'forum_new'  %}"><button type="button" class="btn btn-primary" >Post </button></a>
+</div>
+
+{% endblock %}
