@@ -1,0 +1,221 @@
+body {
+    background: #fafafa;
+   
+    background-image: url("https://www.canva.com/learn/wp-content/uploads/2016/01/Patterns-3-03.jpg");
+    
+    color: #333333;
+    margin-top: 5rem;
+  }
+
+  
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #444444;
+  }
+  
+  ul {
+    margin: 0;
+  }
+  
+  .bg-steel {
+    background-color: white;
+  }
+  
+  .site-header .navbar .navbar-nav .nav-link {
+    color: #445864;
+  }
+  
+  .site-header .navbar-nav .nav-link:hover {
+    color: #000000;
+  }
+  
+  .site-header .navbar-nav .nav-link.active {
+    font-weight: 500;
+  }
+  
+  .content-section {
+    background: #ffffff;
+    padding:  20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    
+    font-family: 'Times New Roman';
+    box-shadow: 2px 2px 2px 2px black;
+    text-align: center;
+    
+  }
+  
+  .article-title {
+    color: #444444;
+  }
+  
+  a.article-title:hover {
+    color: #428bca;
+    text-decoration: none;
+  }
+  
+  .article-content {
+    white-space: pre-line;
+  }
+  
+  .article-img {
+    height: 65px;
+    width: 65px;
+    margin-right: 16px;
+  }
+  
+  .article-metadata {
+    padding-bottom: 1px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #e3e3e3;
+    color: white;
+  }
+  
+  .article-metadata a:hover {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .article-svg {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+  }
+  
+  .account-img {
+    height: 125px;
+    width: 125px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .account-heading {
+    font-size: 2.5rem;
+  }
+
+  table  {
+    background-color: tomato;
+  }
+
+  a {
+    color: teal;
+    font-size: 20px;
+  }
+
+ .content {
+   background-color: black;
+   color: white;
+ }
+
+#inner{
+  padding-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;  
+}
+
+@font-face {
+  font-family: g_font;
+  src: url(GUERRILLA-Normal.otf);
+}
+
+ 
+
+
+
+
+#article_content, .content-section{
+ box-shadow: 2px 2px 2px 2px grey;
+}
+#total{
+ background-color: #bbb;
+ border-radius: 5px;
+
+
+
+}
+
+#pos_bg{
+ background:white;
+ border-radius: 10px;
+ 
+ box-shadow: 2px 2px 2px 2px grey;
+
+ 
+}
+.nav-item{
+ color: black;
+ padding: 5px;
+ 
+
+}
+.nav-item:hover{
+ text-decoration: none;
+ 
+}
+#thumbnails {
+ border: 1px solid #ddd;
+ border-radius: 4px;
+ padding: 5px;
+ width: 150px;
+}
+#pdfbutton {
+ padding-top: 25px;
+        }
+.navbar{
+ font-family: bebas Neue;
+ font-size: 30px;
+ box-shadow:2px 2px 2px 2px grey;
+
+
+}
+.navbar-brand{
+ font-family: bebas Neue;
+ font-size: 40px;
+
+
+}
+
+input[type="radio"]:checked + label{
+ opacity: 0.1;
+ 
+}
+.carousel-control-next, .carousel-control-prev {
+   filter: invert(100%);
+}
+
+
+input[type="radio"]{
+ visibility: hidden;
+}
+#inner{
+ padding-bottom: 30px;
+ margin-left: 20px;
+ margin-right: 20px;
+}
+#head{
+ font-family: bebas Nueu;
+}
+ 
+input[type="submit"]{
+ background: #f77479;
+ 
+ font-size:30px;
+ border-radius: 5px;
+}
+#text{
+ font-family:Bebas Neue;
+ text-align: center;
+ font-size: 46px;
+}
+
+#pos{
+ width:550px;
+ height:700px;
+ 
+}
+
+
+ 
+ 
+ 
